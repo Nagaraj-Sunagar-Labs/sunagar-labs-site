@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink antialiased;
+}
+
+.section-title {
+  @apply text-2xl font-semibold tracking-tight md:text-3xl;
+}
+
+.card {
+  @apply rounded-none border border-line bg-white p-6;
+}
